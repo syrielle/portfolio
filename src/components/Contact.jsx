@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
-import { Mail, MapPin, Send } from 'lucide-react';
+import React, { useState, useRef } from 'react';
+import { Mail, MapPin, Send, CheckCircle, AlertCircle } from 'lucide-react';
 import './Contact.css';
 
 const Contact = () => {
+  const form = useRef();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -80,7 +81,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <form onSubmit={handleSubmit} className="contact-form">
+        <form ref={form} onSubmit={handleSubmit} className="contact-form">
           <div className="form-group">
             <label htmlFor="name">Nom complet</label>
             <input

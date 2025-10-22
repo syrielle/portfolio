@@ -10,9 +10,9 @@ const Hero = () => {
           <h1 className="hero-title">
             Bonjour, je suis <span className="gradient-text">Sirielle Makouani Sidjui</span>
           </h1>
-          <p className="hero-subtitle">Étudiante en Informatique | Développeuse Full Stack (.NET, React, React Native)</p>
+          <p className="hero-subtitle">Développeuse Full Stack | Recherche stage hiver 2026</p>
           <p className="hero-description">
-            Passionnée par le développement logiciel, je recherche un stage à l'hiver 2026 pour mettre en pratique mes compétences en C#, ASP.NET et développement d'applications sécurisées.
+            Spécialisée en .NET, React et applications sécurisées. Découvrez mes projets et compétences.
           </p>
           
           <div className="hero-buttons">
